@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       
 
-<footer className="bg-white shadow-sm m-4 dark:bg-gray-800">
+<footer className="bg-white shadow-sm mt-4 dark:bg-gray-800">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <Link to="/" className="hover:underline">Movies</Link>. All Rights Reserved.
     </span>
