@@ -3,6 +3,8 @@ import Logo from "../assets/logo.png";
 import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
+  const activeClass = "text-base block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500";
+  const inActiveClass ="text-base block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700";
   return (
     <header>
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
@@ -45,16 +47,16 @@ const Header = () => {
       </div>
       <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
-          <NavLink to="/" className="text-base block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" end>Home</NavLink>
+          <NavLink to="/" className={({isActive}) => isActive ? activeClass : inActiveClass} end>Home</NavLink>
         </li>
         <li>
-          <NavLink to="/movie/popular" className="text-base block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Popular</NavLink>
+          <NavLink to="/movie/popular" className={({isActive}) => isActive ? activeClass : inActiveClass} >Popular</NavLink>
         </li>
         <li>
-          <NavLink to="/movie/top" className="text-base block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Top Rated</NavLink>
+          <NavLink to="/movie/top" className={({isActive}) => isActive ? activeClass : inActiveClass} >Top Rated</NavLink>
         </li>
          <li>
-          <NavLink to="/movie/upcoming" className="text-base block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Upcomming</NavLink>
+          <NavLink to="/movie/upcoming" className={({isActive}) => isActive ? activeClass : inActiveClass} >Upcomming</NavLink>
         </li>
       </ul>
     </div>
