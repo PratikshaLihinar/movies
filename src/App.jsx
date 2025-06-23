@@ -1,14 +1,16 @@
-// import { AllRoutes } from './routes/AllRoutes'
-// import { MovieDetail, MovieList, Search, PageNotFound } from /"./pages"
 import AllRoutes from "./routes/AllRoutes"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 
 const App = () => {
 
   return (
-  
-        <AllRoutes />
-      
+    <div className="App">
+      <Header />
+      <AllRoutes />
+      <Footer />
+    </div>
   )
 }
 
