@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react'
 
-const useFetch = (url) => {
+const useFetch = (apiPath) => {
+    const TOKEN = import.meta.env.VITE_TOKEN;
     const [data, setData] = useState([]);
+    const url = `https://api.themoviedb.org/3/${apiPath}?language=en-US`
     useEffect(() =>{
     async function fetchMovies() {
       const options = {
       method: 'GET',
       headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOTZkNTUwOGU3YzA0NzkyMjhjYzA2ZTY4N2E0MzMxOSIsIm5iZiI6MTc1MDY2MjM4Mi41NzQwMDAxLCJzdWIiOiI2ODU4ZmNlZTE3M2FkYWIyZTJkZWRkMjciLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.t5ntpjhSI0n9rUYqpYPtznzSWLKFbsS8VlUri2ZCUY8'
+        Authorization: `Bearer ${TOKEN}` 
       }
     }
       const response = await fetch(url, options);
