@@ -1,8 +1,7 @@
+
 # 🎬 Movie Explorer
 
-A responsive movie listing web application built using **React**, **Vite**, and **TMDB API**. The app showcases top-rated movies, trending titles, and detailed movie pages—all powered by an elegant frontend and dynamic data fetching.
-
-![Movies](/public/movies.png "Movies")
+A high-performance, **mobile-responsive** movie discovery platform built with **React**, **Vite**, and **Tailwind CSS**. The app integrates with **TMDB API** to showcase top-rated and trending movies, with features like **search**, **dark mode**, and dynamic routing.
 
 ### 🔗 Live Demo
 
@@ -10,26 +9,51 @@ A responsive movie listing web application built using **React**, **Vite**, and 
 
 ---
 
-## 📌 Features
+## 🚀 Key Highlights
 
-- Fetches movie data from [The Movie Database (TMDB)](https://www.themoviedb.org/documentation/api)
-- Clean UI with responsive design
-- Routing with `react-router-dom`
-- Custom `useFetch` hook for reusable API calls
-- Dynamic movie detail pages
-- Loading and error states handled
+✅ **Modern UI with Tailwind CSS**  
+✅ **Dark Mode Support** for seamless day-night experience  
+✅ **Integrated Search API** – search by title using TMDB  
+✅ **Mobile-First Design** – fully responsive on all devices  
+✅ **Optimized with Vite** – fast development & production builds  
+✅ **Reusable `useFetch` Hook** – clean, scalable data fetching  
+✅ **Dynamic Routing with `react-router-dom` v6**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **React** (with Hooks)
-- **Vite** (Fast build tool)
-- **TMDB API**
-- **React Router v6**
-- **Netlify** (Deployment)
+- **React** (Hooks + Functional Components)
+- **Vite** (lightning-fast bundler)
+- **Tailwind CSS** (utility-first CSS framework)
+- **TMDB API** (Movie data provider)
+- **React Router DOM v6**
+- **Netlify** (Hosting & CI/CD)
 
 ---
+
+## 📸 Screenshots
+
+| Home (Light Mode) | Movie Details (Dark Mode) | Mobile View |
+|-------------------|---------------------------|-------------|
+| ![Movies](/public/lightmovies.png "Movies") | ![dark](/public/movies.png) | ![mobile](/public/mobile.png) |
+
+---
+
+## 🔍 Features
+
+- 🔄 Real-time movie data from TMDB API
+- 🔎 Search movies by title
+- 🌗 Toggle dark/light themes
+- 📱 Fully responsive UI (mobile, tablet, desktop)
+- ♻️ Modular structure with reusable components
+- 🚨 Error & loading state management
+
+---
+
+## 📂 Folder Structure
+
+
 
 
 
