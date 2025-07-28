@@ -3,6 +3,12 @@
 
 A high-performance, **mobile-responsive** movie discovery platform built with **React**, **Vite**, and **Tailwind CSS**. The app integrates with **TMDB API** to showcase top-rated and trending movies, with features like **search**, **dark mode**, and dynamic routing.
 
+## 📸 Screenshots
+
+| Home (Light Mode) | Movie Details (Dark Mode) | Mobile View |
+|-------------------|---------------------------|-------------|
+| ![Movies](/public/lightmovies.png "Movies") | ![dark](/public/movies.png) | ![mobile](/public/mobile.png) |
+
 ### 🔗 Live Demo
 
 🌐 [View Live Site](https://lucent-cocada-79a76c.netlify.app/)
@@ -30,13 +36,6 @@ A high-performance, **mobile-responsive** movie discovery platform built with **
 - **React Router DOM v6**
 - **Netlify** (Hosting & CI/CD)
 
----
-
-## 📸 Screenshots
-
-| Home (Light Mode) | Movie Details (Dark Mode) | Mobile View |
-|-------------------|---------------------------|-------------|
-| ![Movies](/public/lightmovies.png "Movies") | ![dark](/public/movies.png) | ![mobile](/public/mobile.png) |
 
 ---
 
