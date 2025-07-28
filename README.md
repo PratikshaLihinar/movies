@@ -1,5 +1,5 @@
 
-# 🎬 Movie Explorer
+# 🎬 Movie Explorer (Frontend)
 
 A high-performance, **mobile-responsive** movie discovery platform built with **React**, **Vite**, and **Tailwind CSS**. The app integrates with **TMDB API** to showcase top-rated and trending movies, with features like **search**, **dark mode**, and dynamic routing.
 
