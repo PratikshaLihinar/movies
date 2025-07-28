@@ -2,7 +2,7 @@
 
 A responsive movie listing web application built using **React**, **Vite**, and **TMDB API**. The app showcases top-rated movies, trending titles, and detailed movie pages—all powered by an elegant frontend and dynamic data fetching.
 
-![Movies](/public/images/movies.png "Movies")
+![Movies](/public/movies.png "Movies")
 
 ### 🔗 Live Demo
 
