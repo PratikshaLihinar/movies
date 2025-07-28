@@ -1,15 +1,35 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie listing web application built using **React**, **Vite**, and **TMDB API**. The app showcases top-rated movies, trending titles, and detailed movie pages—all powered by an elegant frontend and dynamic data fetching.
 
-Currently, two official plugins are available:
+![Movies](/public/images/movies.png "Movies")
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔗 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [View Live Site](https://lucent-cocada-79a76c.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
-React app URL:
-https://lucent-cocada-79a76c.netlify.app/
+## 📌 Features
+
+- Fetches movie data from [The Movie Database (TMDB)](https://www.themoviedb.org/documentation/api)
+- Clean UI with responsive design
+- Routing with `react-router-dom`
+- Custom `useFetch` hook for reusable API calls
+- Dynamic movie detail pages
+- Loading and error states handled
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with Hooks)
+- **Vite** (Fast build tool)
+- **TMDB API**
+- **React Router v6**
+- **Netlify** (Deployment)
+
+---
+
+
+
