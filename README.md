@@ -51,7 +51,7 @@ A high-performance, **mobile-responsive** movie discovery platform built with **
 
 ---
 
-## 📂 Folder Structure
+
 
 
 
